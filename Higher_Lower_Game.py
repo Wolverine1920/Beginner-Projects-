@@ -45,6 +45,8 @@ def comparison(x, y):
 
 
 user_input = input("Do u want to play a game of Higher or Lower Y/N")
-if user_input.lower() == "y":
+if user_input == "y":
     final_score = comparison(x, y)
-print(f"Final Score = {final_score}")
+    print(f"Final Score = {final_score}")
+else:
+    print("Maybe next time!")
